@@ -1,0 +1,14 @@
+.yesterday-humidity-container{
+    display: flex;
+    justify-content: right;
+    
+
+}
+
+.humidity-graph{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: right;
+    height:fit-content;
+    
+}

@@ -1,0 +1,13 @@
+.yesterday-pressure-container{
+    display: flex;
+    justify-content: right;
+    
+}
+
+.pressure-graph{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: right;
+    height:fit-content;
+    
+}

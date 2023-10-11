@@ -1,0 +1,135 @@
+
+a{
+    /*Creates a pointer on links*/
+    cursor: pointer;
+    /*Removes text underline on links*/
+    text-decoration: none;
+}
+
+
+body{
+    display: flex;
+    background-color: rgb(225, 200, 170);
+}
+
+
+.wrapper-main{
+    width:800px;
+    margin: 65px auto auto 100px;  
+    
+}
+
+.header-icon{
+    height: 50px;
+    width: 50px;
+}
+
+
+.header-strip{
+    height: 50px;
+    width:100%;
+    background-color: rgb(30, 29, 29);
+    position: fixed;
+    color: aquamarine;
+    display: flex;
+    z-index: 1000;
+    flex-wrap: nowrap;
+       
+}
+
+
+.navbar{
+    /*background-color: orange;*/
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.navbar ul li{
+    display: inline;
+}
+
+.navbar ul li a{
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    float: left;
+    display: block;
+    height: 100%;
+    line-height: 50px;
+}
+
+.header-strip-box{
+    /*Currently Unused
+    <div class="header-strip-box"></div>*/
+    width: 100%;
+    padding-top:10px;
+    display: flex;
+    align-items: center;
+}
+
+.header-box{
+    /*Currently unused*/
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+
+.container{
+    width: 800px;
+    height: 90px;
+    background-color:rgb(80, 80, 83);
+    border: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    box-shadow: inset 4px 4px 4px 0px  lightblue, inset -3px -3px 4px 0px  black;
+}
+
+
+.text{
+    align-self: flex-end;
+    font-family: 'DM Serif Display', serif;
+    font-size: 14px;
+    text-align: right;
+    width: 120px;
+}
+
+
+.box{
+    font-family: 'DM Serif Display', serif;
+    font-size: 80px;
+    text-align: center;    
+    align-self: flex-end;
+    position: relative;
+    line-height: 1;
+    bottom: 0;
+    
+
+}
+
+
+.temperature-container{
+    background-color: rgb(234, 13, 13);
+}
+
+.pressure-box{
+    font-size: 60px;
+}
+
+.pressure-container{
+    background-color: blue;
+}
+
+.humidity-container{
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,13 @@
+.yesterday-temperature-container{
+    display: flex;
+    justify-content: right;
+    
+}
+
+.temperature-graph{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: right;
+    height:fit-content;
+    
+}
