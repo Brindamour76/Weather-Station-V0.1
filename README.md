@@ -1,10 +1,10 @@
-#WIP Weather Station
+# WIP Weather Station
 
 **AIM:** To create an ESP32 based weather station and upload the data to a MySQL database.
 The data stored will be displayed both on screen(s) attached to the ESP32 and, on a webpage.
 
 
-##14th October, 2023:
+## 14th October, 2023:
 
 **ESP32 Hardware:** Initial setup is an ESP32 sitting on a breadboard with a DHT11 temperature 
 and humidity sensor and, an SPL06 baromatric pressure sensor. An LED flashes to indicate a 
