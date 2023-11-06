@@ -121,7 +121,7 @@
                     </div>
 
                 </section>
-
+                <br>
                 <section class="container pressure-container">
                     <div class="text">
                         Current<br>barometer 
@@ -211,8 +211,7 @@
                     </div>
 
                 </section>
-
-                
+                <br>
                 <section class="container humidity-container">
                     <div class="text">
                         Current<br>humidity 
